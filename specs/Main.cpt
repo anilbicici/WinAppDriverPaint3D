@@ -1,0 +1,64 @@
+# Yeni bir proje başlatılır
+* byName göre "Yeni" elementi tıkla
+
+# 2B Şekiller'den Daire şekli seçilir
+* byName göre "2B şekiller" ve "Daire" elementleri tıkla
+
+# Seçilen şekle göre çizim yapılır
+* byId göre "InteractorFocusWrapper" elementi tıkla
+* byName göre "İşle" elementi tıkla
+
+# Belirlenen şekle göre çizim yapılır
+* byId göre "InteractorFocusWrapper" elementi tıkla
+
+# Seçilen alan boyanır
+* byId göre "InteractorFocusWrapper" elementi tıkla
+
+# Şekli belirlenen alana taşı
+* Sticker için konumlandırma yap
+* "2" saniye bekle
+* byName göre "İşle" elementi tıkla
+* "2" saniye bekle
+
+# Stickerı yeniden boyutlandır
+* Sticker için yeniden boyutlandır
+* "2" saniye bekle
+
+# Fırçalar sekmesinden Doldur elementi seçilir
+* byName göre "Fırçalar" ve "Doldur" elementleri tıkla
+
+# Renk ekleden onaltılık seçilir ve renk: <colour> olarak ayarlanır
+* <colour> seç
+* "5" saniye bekle
+
+# Çıkartmalar sekmesinden çıkartmalar seçilir
+* byName göre "Çıkartmalar" elementi tıkla
+* byId göre "Stickers_Presets" elementi tıkla
+
+# Gözlük çıkartması seçilir
+* byId göre "Sticker_Glasses" elementi tıkla
+
+# Neşeli çıkartması seçilir
+* byId göre "Sticker_TeethSmile" elementi tıkla
+
+# Metin sekmesinden 2B Metin seçilir
+* byName göre "Metin" elementi tıkla
+* byName göre "2B metin" elementi tıkla
+
+# Yazı tipi: Showcard Gothic seçilir
+* Yazı tipi seç
+
+# Metin rengi <colour> seçilir ve ortalanır
+* byName göre "Bir renk seç" ve <colour> elementleri tıkla
+* byName göre "Metninizi ortalayın" elementi tıkla
+
+# Seçilen alana <text> yazılır
+* byId göre "InteractorFocusWrapper" elementi tıkla
+* <text> yaz
+
+# Metin alanını yeniden boyutlandır
+* Text area için yeniden boyutlandır
+* "2" saniye bekle
+
+# Dosya adi: <key> olarak kaydedillir
+* Dosya adı <key> olarak kaydet
